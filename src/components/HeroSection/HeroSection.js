@@ -31,7 +31,7 @@ const HeroSection = () => {
                 <HeroH1>Welcome to our Community</HeroH1>
                 <HeroParagraph>Register today to get our News Letter</HeroParagraph>
                 <HeroBtnWrapper>
-                   <HeroGlobalBtn to="/signup"
+                   <HeroGlobalBtn to="/##"
                     onMouseEnter={onHover}
                     onMouseLeave={onHover}
                    >
