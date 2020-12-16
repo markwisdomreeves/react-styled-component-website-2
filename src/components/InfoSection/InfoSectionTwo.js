@@ -49,7 +49,7 @@ const InfoSectionTwo = ({
                             <SubTitle darkText={darkText}>{description}</SubTitle>
                             <BtnWrapper>
                               <HeroGlobalBtn 
-                                to="/signin"
+                                to="/##"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
