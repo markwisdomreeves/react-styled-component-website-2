@@ -82,16 +82,16 @@ function FooterSection() {
           </SocialLogo>
           <WebsiteRights>Locals © 2020</WebsiteRights>
           <SocialIcons>
-            <SocialIconLink href='/###' target='_blank' aria-label='Facebook'>
+            <SocialIconLink href='/' aria-label='Facebook'>
               <FaFacebook />
             </SocialIconLink>
-            <SocialIconLink href='/###' target='_blank' aria-label='Instagram'>
+            <SocialIconLink href='/' aria-label='Instagram'>
               <FaInstagram />
             </SocialIconLink>
-            <SocialIconLink href='/###' target='_blank' aria-label='Twitter'>
+            <SocialIconLink href='/' aria-label='Twitter'>
               <FaTwitter />
             </SocialIconLink>
-            <SocialIconLink href='###' target='_blank' aria-label='LinkedIn'>
+            <SocialIconLink href='/' aria-label='LinkedIn'>
               <FaLinkedin />
             </SocialIconLink>
           </SocialIcons>
