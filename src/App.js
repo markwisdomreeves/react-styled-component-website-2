@@ -1,25 +1,28 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
+import GlobalStyle from "./globalStyles";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage/HomePage";
+
+
+// GREAT SITE TO GET ALL SVG IMAGES
+// https://undraw.co/
+
+// REACT SCROLL 
+// https://github.com/fisshy/react-scroll
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyle />
+
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+      </Switch>
+    </Router>
   );
 }
+
 
 export default App;
